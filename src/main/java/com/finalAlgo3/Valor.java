@@ -9,4 +9,9 @@ public class Valor extends Hechizo {
     public void realizarDanio(Madrastra madrastra) {
         madrastra.recibirDanio(this.puntosDeEnergia, this.puntosDeMagia);
     }
+
+    @Override
+    public void realizarContraHechizo(Madrastra madrastra) {
+        return;
+    }
 }

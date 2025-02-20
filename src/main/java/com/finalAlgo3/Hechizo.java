@@ -5,4 +5,6 @@ public abstract class Hechizo {
     protected int puntosDeMagia;
 
     public abstract void realizarDanio(Madrastra madrastra);
+
+    public abstract void realizarContraHechizo(Madrastra madrastra);
 }

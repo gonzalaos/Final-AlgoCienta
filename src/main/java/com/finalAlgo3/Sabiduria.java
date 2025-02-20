@@ -9,4 +9,9 @@ public class Sabiduria extends Hechizo {
         madrastra.recibirDanio(this.puntosDeEnergia, madrastra.getPuntosDeMagia());
     }
 
+    @Override
+    public void realizarContraHechizo(Madrastra madrastra) {
+        madrastra.realizarHechizo();
+    }
+
 }

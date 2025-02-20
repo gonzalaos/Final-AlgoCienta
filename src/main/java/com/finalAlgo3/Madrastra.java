@@ -1,14 +1,12 @@
 package com.finalAlgo3;
 
 public class Madrastra extends Personaje {
-    private int puntosDeMagia;
-
     public Madrastra() {
         super();
         this.puntosDeMagia = 100;
     }
 
-    public void realizarHechizo(Hechizo hechizo, Personaje personaje) {
+    public void realizarHechizo() {
         return;
     }
 
